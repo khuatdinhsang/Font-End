@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title_manager {
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.cl_active {
+    display: block;
+}
+
+.form_add {
+    background-color: rgb(139, 139, 222);
+    padding: 0;
+    height: 230px;
+    /* display: none; */
+}
+
+.header_add {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 139, 73);
+}
+
+.header_add span {
+    padding: 5px 0 5px 10px;
+}
+
+.delete_icon {
+    font-size: 24px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.form {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    ;
+}
+
+.input_name {
+    padding-left: 5px;
+}
+
+.name,
+.status {
+    display: block;
+}
+
+.input_name,
+.input_status {
+    width: 100%;
+    outline: none;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+
+.list_btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.btn_save button,
+.btn_cancel button {
+    background-color: rgb(210, 53, 139);
+    color: white;
+    min-width: 85px;
+    border: none;
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+
+.btn_save {
+    margin-right: 6px;
+}
+
+.list_item_add {
+    padding: 0 0 0 30px;
+    ;
+}
+
+.list_item_add>button {
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+.functinal>input {
+    padding: 0 0 2px 10px;
+    border: 1px solid rgb(193, 130, 130);
+    outline: none;
+}
+
+.search {
+    transform: translateX(-5px);
+    border: none;
+    padding: 2px;
+    background-color: rgb(67, 218, 59)
+}
+
+.abc {
+    background-color: palevioletred;
+    padding: 2px;
+}
+
+.handle {
+    padding: 2px;
+    background-color: aqua
+}
+
+.action_active {
+    min-width: 62px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.action_active {
+    background-color: rgb(37, 211, 218);
+    min-width: 64px;
+}
+
+.action_hide {
+    background-color: rgba(22, 32, 3, 0.749);
+    min-width: 64px;
+}
+
+.action_edit {
+    border: none;
+    background-color: rgb(180, 79, 79);
+    padding: 4px 0px;
+    min-width: 68px;
+}
+
+.action_delete {
+    border: none;
+    background-color: rgb(62, 123, 216);
+    padding: 4px 0px;
+    min-width: 68px;
+}
+
+.fa-pencil {
+    text-align: left;
+    display: inline-block;
+    padding-right: 12px
+}

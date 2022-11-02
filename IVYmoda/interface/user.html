@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="container">
+        <div class="logo">
+            <a href="home.jsp">
+                <img src="./images/logo/logo.png" alt="">
+            </a>
+        </div>
+        <div class="menu">
+            <li>
+                <a href="#">NỮ</a>
+            </li>
+            <li>
+                <a href="#">NAM</a>
+            </li>
+            <li>
+                <a href="#">TRẺ EM</a>
+            </li>
+            <li>
+                <a href="#">Sp bán chạy</a>
+            </li>
+            <li>
+                <a class="red" href="#">SALE</a>
+            </li>
+        </div>
+        <div class="others">
+            <li><input placeholder="Search..." type="text"><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li>
+                <a href="./index.html" class="fa-solid fa-paw"></a>
+            </li>
+            <li>
+                <a href="../interface/login.html" class="fa-solid fa-user"></a>
+            </li>
+            <li>
+                <a href="./cart.html" class="fa-solid fa-cart-plus"></a>
+            </li>
+        </div>
+    </header>
+
+    <section class="user">
+        <div class="container">
+            <h2 style="text-align:center; font-size: 30px;margin-bottom: 30px;">Đăng ký</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info_customer">
+                        <h3>Thông tin khách hàng</h3>
+                        <form action="" method="">
+                            <div class="form_input_100 form_input">
+                                <label for="">UserName:<sup>*</sup></label>
+                                <input type="text" class="username">
+                            </div>
+                            <div class="form_group">
+                                <div class="form_input">
+                                    <label for="">FirstName: <sup>*</sup></label>
+                                    <input type="text" class="fisrt_name">
+                                </div>
+                                <div class="form_input">
+                                    <label for="">LastName: <sup>*</sup></label>
+                                    <input type="text" class="last_name">
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <div class="form_input">
+                                    <label for="">Ngày sinh: <sup>*</sup></label>
+                                    <input type="date" class="birth">
+                                </div>
+                                <div class="form_input">
+                                    <label for="">Giới tính: <sup>*</sup></label>
+                                    <select name="" id="" class="gender">
+                                    <option value="0" selected >Nam</option>
+                                    <option value="1" >Nữ</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <div class="form_input">
+                                    <label for="">Email: <sup>*</sup></label>
+                                    <input type="text" class="email">
+                                </div>
+                                <div class="form_input">
+                                    <label for="">Phone:<sup>*</sup></label>
+                                    <input type="text" class="phone">
+                                </div>
+                            </div>
+
+                            <div class="form_input_100 form_input">
+                                <label for="">Địa chỉ:<sup>*</sup></label>
+                                <textarea name="" id="" class="local"></textarea>
+                            </div>
+                            <input class="save_change" type="submit" value="Save Changes" />
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="password_customer">
+                        <h3>Thông tin mật khẩu</h3>
+                        <form action="">
+                            <div class="form_input w100">
+                                <label for="">Mật khẩu cũ: <sup>*</sup></label>
+                                <input type="password" class="password" placeholder="Mật khẩu...">
+                            </div>
+                            <div class="form_input w100">
+                                <label for="">Mật khẩu mới : <sup>*</sup></label>
+                                <input type="password" class="new_password" placeholder="Nhập lại mật khẩu...">
+                            </div>
+                            <div class="form_input w100">
+                                <label for="">Nhập lại khẩu mới : <sup>*</sup></label>
+                                <input type="password" class="re_new_password" placeholder="Nhập lại mật khẩu...">
+                            </div>
+                            <div class="form_input w100">
+                                <label for="">Mời nhập các kí tự trong hình vào ô sau <sup>*</sup></label>
+                                <input type="text" class="qr_Code" placeholder="">
+                            </div>
+                            <img class="capcha" src="../images/captcha (1).png" alt="">
+                            <div class="apcept">
+                                <input type="checkbox" value="on" />Đồng ý với các điều khoản của IVY <br/>
+                                <input type="checkbox" value="on" />Đăng ký nhận bản tin<br/>
+                            </div>
+                            <input class="save_change" type="submit" value="Save Changes" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

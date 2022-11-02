@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    background-color: orange;
+    color: #000;
+    font: 30px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 200px;
+    min-height: 200px;
+}
+
+.main {
+    display: flex;
+    padding: 0 32px;
+}
+
+.sidebar {
+    min-width: 300px;
+    background-color: aquamarine;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+@media (min-width:740px) and (max-width:1023px) {
+    .hide-ontablet {
+        display: none;
+    }
+}
+
+@media (max-width:739px) {
+    .hide-moblie {
+        display: none;
+    }
+}

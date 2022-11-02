@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css//base.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>IVYmoda</title>
+</head>
+
+<br>
+<header>
+    <div class="logo">
+        <img src="../images/logo.png" alt="">
+    </div>
+    <div class="menu">
+        <li>
+            <a href="">NỮ</a>
+            <ul class="sub-menu">
+                <li><a href="">Hàng mới về</a></li>
+                <li><a href="">Collection</a></li>
+                <li><a href="">Áo</a>
+                    <ul>
+                        <li><a href="">Áo sơ mi</a></li>
+                        <li><a href="">Áo thun</a></li>
+                        <li><a href="">Áo vest</a></li>
+                        <li><a href="">Áo khoác</a></li>
+                        <li><a href="">Áo len</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">
+                            Quần
+                        </a>
+                    <ul>
+                        <li><a href="">Quần jean</a></li>
+                        <li><a href="">Quần lửng</a></li>
+                        <li><a href="">Quần dài</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="">NAM</a>
+        </li>
+        <li>
+            <a href="">TRẺ EM</a>
+        </li>
+        <li>
+            <a class="red" href="">SALE</a>
+        </li>
+        <li>
+            <a href="">KHẨU TRANG</a>
+        </li>
+        <li>
+            <a href="">BST</a>
+        </li>
+        <li>
+            <a href="">THÔNG TIN</a>
+        </li>
+    </div>
+    <div class="others">
+        <li><input placeholder="Search..." type="text"><i class="fa-solid fa-magnifying-glass"></i></li>
+        <li>
+            <a href="#" class="fa-solid fa-paw"></a>
+        </li>
+        <li>
+            <a href="#" class="fa-solid fa-user"></a>
+        </li>
+        <li>
+            <a href="#" class="fa-solid fa-cart-plus"></a>
+        </li>
+    </div>
+</header>
+
+
+<!-- Register -->
+<section class="register">
+    <div class="container">
+        <h2 style="text-align:center; font-size: 30px;margin-bottom: 30px;">Đăng ký</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="info_customer">
+                    <h3>Thông tin khách hàng</h3>
+                    <div action="">
+                        <div class="form_group">
+                            <div class="form_input">
+                                <label for="">Họ: <sup>*</sup></label>
+                                <input type="text" class="fisrt_name" placeholder="Họ...">
+                            </div>
+                            <div class="form_input">
+                                <label for="">Tên: <sup>*</sup></label>
+                                <input type="text" class="last_name" placeholder="Tên...">
+                            </div>
+                        </div>
+                        <div class="form_group">
+                            <div class="form_input">
+                                <label for="">Ngày sinh: <sup>*</sup></label>
+                                <input type="date" class="birth" placeholder="Ngày sinh...">
+                            </div>
+                            <div class="form_input">
+                                <label for="">Giới tính: <sup>*</sup></label>
+                                <select name="" id="" class="gender">
+                                <option value="0">Nam</option>
+                                <option value="1">Nữ</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="form_group">
+                            <div class="form_input">
+                                <label for="">Tỉnh/TP: <sup>*</sup></label>
+                                <input type="text" class="city" placeholder=" Tỉnh/TP...">
+                            </div>
+                            <div class="form_input">
+                                <label for="">Quận/Huyện:<sup>*</sup></label>
+                                <input type="text" class="street" placeholder=" Quận/Huyện...">
+                            </div>
+                        </div>
+                        <div class="form_input_100 form_input">
+                            <label for="">Phường/Xã:<sup>*</sup></label>
+                            <input type="text" class="village" placeholder=" Quận/Huyện...">
+                        </div>
+                        <div class="form_input_100 form_input">
+                            <label for="">Địa chỉ:<sup>*</sup></label>
+                            <textarea name="" id="" class="local"></textarea>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="password_customer">
+                    <h3>Thông tin mật khẩu</h3>
+                    <form action="">
+                        <div class="form_input w100">
+                            <label for="">Mật khẩu: <sup>*</sup></label>
+                            <input type="password" class="password" placeholder="Mật khẩu...">
+                        </div>
+                        <div class="form_input w100">
+                            <label for="">Nhập lại mật khẩu: <sup>*</sup></label>
+                            <input type="password" class="new_password" placeholder="Nhập lại mật khẩu...">
+                        </div>
+                        <div class="form_input w100">
+                            <label for="">Mời nhập các kí tự trong hình vào ô sau <sup>*</sup></label>
+                            <input type="text" class="qr_Code" placeholder="">
+                        </div>
+                        <img class="capcha" src="../images/captcha (1).png" alt="">
+                        <div class="apcept">
+                            <i class="fa-solid fa-check  "></i> Đồng ý với các <span>điều khoản</span> của IVY
+                        </div>
+                        <div class="apcept">
+                            <i class="fa-solid fa-check"></i> Đăng ký nhận bản tin
+                        </div>
+                        <div class="btn_register">
+
+                            Đăng ký
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer-top">
+    <li>
+        <a href="http://online.gov.vn/Home/WebDetails/36596?AspxAutoDetectCookieSupport=1">
+            <img src="../images/img-congthuong.png" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="#">Liên hệ</a>
+    </li>
+    <li>
+        <a href="https://tuyendung.ivy.com.vn/">Tuyển dụng</a>
+    </li>
+    <li>
+        <a href="#">Giới thiệu</a>
+    </li>
+    <li>
+        <a href="https://www.facebook.com/thoitrangivymoda/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/user/thoitrangivymoda"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/ivy_moda/"><i class="fa-brands fa-instagram"></i></a>
+    </li>
+</footer>
+<div class="about">
+    <p>Khuất Đình Sáng xin gửi lời chào đến người anh em</p>
+    <p>Địa chỉ: Giếng Làng- Yên Lỗ- Cẩm Yên- Thạch Thất- Hà Nội</p>
+    <p>SDT :<span>0981008250</span></p>
+</div>
+<footer class="footer-bottom">
+    Made by Khuất Đình Sáng
+</footer>
+<script src="../js/register.js"></script>
+</body>
+
+</html>

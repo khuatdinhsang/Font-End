@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1423px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category {
+    margin: 70px 0 0;
+}
+
+.category-top {
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-size: 16px;
+}
+
+.category-top p {
+    margin: 0 12px;
+    font-size: 12px;
+}
+
+.category-left {
+    width: 20%;
+}
+
+.category-right {
+    width: 80%;
+}
+
+.category-right-top-item:first-child {
+    flex: 2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.category-right-top-item {
+    flex: 1;
+    padding: 0 12px;
+}
+
+.category-right-top-item button {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.category-right-top-item select {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.category-right-content {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.category-right-content-item {
+    width: calc(25% - 12px);
+    text-align: center;
+    padding: 12px 0;
+}
+
+.category-right-content-item h1 {
+    font-size: 11px;
+    margin-top: 6px;
+    color: #333333;
+}
+
+.category-right-content-item img {
+    width: 100%;
+}
+
+.category-right-content-item p {
+    font-size: 12px;
+}
+
+.category-right-bottom {
+    justify-content: space-between;
+    margin: 30px 0 20px;
+    width: 100%;
+}
+
+.category-left ul li {
+    padding: 12px 0;
+}
+
+.category-left ul li>a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.category-left ul li ul li {
+    padding-left: 10px;
+}
+
+.category-left-li ul {
+    display: none;
+}
+
+.category-left-li a:hover {
+    color: red;
+}
+
+.category-left-li a {}
+
+.category-left-li.block ul {
+    display: block;
+}
+
+.category-left ul li ul li a {
+    font-weight: normal;
+}
+
+.i_filter {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.s_filter {
+    text-align: center;
+    padding: 5px 10px;
+    background: red;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+}

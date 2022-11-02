@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            border: none;
+            outline: none;
+            padding: 10px 16px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        
+        #myDIV a {
+            text-decoration: none;
+        }
+        /* Style the active class, and buttons on mouse-over */
+        
+        .active,
+        .btn:hover {
+            background-color: #666;
+            color: white;
+        }
+        
+        .alert {
+            width: 400px;
+            height: 250px;
+            background: linear-gradient(to bottom right, #B0DB7D 40%, #99DBB4 100%);
+            margin: 200px auto;
+            border-radius: 20px;
+            padding: 20px;
+            color: white;
+        }
+        
+        .noti {
+            Text-align: center;
+        }
+        
+        .action {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        
+        .action a {
+            text-decoration: none;
+            color: #4ec07d;
+            padding: 10px 20px;
+            background: white;
+            border-radius: 10px
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="myDIV" style="margin-top:100px" class="action">
+        <a class="btn" href="#">Profile</a>
+        <a class="btn active" href="#">Order</a>
+        <a class="btn" href="#">Order History</a>
+        <a class="btn" href="#">Account</a>
+        <a class="btn" href="#">User</a>
+        <a class="btn" href="#">Product</a>
+        <a class="btn" href="#">Category</a>
+    </div> -->
+
+
+
+    <div class="alert">
+        <h1 class="noti">Thêm vào giỏ hàng thành công</h1>
+        <div class="action">
+            <a href="">Mua tiếp</a>
+            <a href="">Xem giỏ hàng</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+    <style>
+        .login_part {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 150px auto;
+            background-color: rgb(221, 166, 213);
+            border-radius: 10px;
+        }
+        
+        .btn_3 {
+            text-align: center;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        
+        .btn_3 button {
+            background-color: red;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 5px 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+    <!-- <section class="login_part ">
+        <h3>Enter new password</h3>
+        <div class="alert alert-danger" role="alert">
+            ${mess}
+        </div>
+        <form class=" contact_form" action="new-pass" method="post" novalidate="novalidate">
+            <div>
+                <input style="padding:10px; margin-bottom: 10px;width:200px;" type="password" class="new-pass" id="password" name="password" placeholder="Password">
+            </div>
+            <div>
+                <input style="padding:10px; margin-bottom: 10px;width:200px;" type="password" class="form-control" id="password" name="repassword" placeholder="Confim Password">
+            </div>
+            <div class="btn_3">
+                <button type="submit" value="submit">
+                    LOG IN
+                </button>
+            </div>
+        </form>
+    </section> -->
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+    "folders": [
+		{
+			"name": "html cơ bản",
+			"path": ".."
+		},
+		{
+			"name": "hoc javascript",
+			"path": "..\\..\\hoc javascript"
+		},
+		{
+			"name": "W3School",
+			"path": "..\\..\\W3School"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "W3School"
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- My librery -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        .course-item {
+            background-color: orange;
+            height: 260px;
+        }
+        
+        h2 {
+            color: aliceblue;
+            line-height: 260px;
+        }
+        
+        @media ( max-width:1023px) {
+            .course-item {
+                margin: 16px;
+            }
+        }
+        
+        .category {
+            background-color: green;
+            height: 260px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-3 m-0 c-0">
+                <div class="category">
+                    <ul>
+                        <li>Java</li>
+                        <li>PHO</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col l-9 m-12 c-12">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course-item">
+                            <h2>Sang dep trai</h2>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course-item">
+                            <h2>Sang dep trai</h2>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course-item">
+                            <h2>Sang dep trai</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

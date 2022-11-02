@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle_click.active_circle {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1423px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart {
+    margin-top: 100px;
+}
+
+.cart-top {
+    height: 2px;
+    width: 60%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+
+.cart-top-cart {
+    padding: 5px 7px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.cart-top-cart:nth-child(2) {
+    border: 1px solid #0DB7EA;
+    transform: translateX(-11px);
+}
+
+.cart-top-cart:last-child {
+    transform: translateX(11px);
+}
+
+.cart-top-cart:nth-child(2) i {
+    color: #0DB7EA;
+}
+
+.cart-top-cart i {
+    font-size: 20px;
+}
+
+.delivery {
+    display: flex;
+}
+
+.delivery-left {
+    flex: 2;
+}
+
+.delivery-right {
+    flex: 1;
+}
+
+.delivery-left_title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.delivery-left-content a {
+    color: red;
+}
+
+.delivery-left-content a:hover {
+    text-decoration: underline;
+}
+
+.circle_click {
+    height: 8px;
+    width: 8px;
+    background: red;
+    border-radius: 50%;
+    margin: 2px;
+    transform: translateY(-1px);
+    margin-right: 6px;
+    cursor: pointer;
+    border: 1px solid red;
+    display: none;
+}
+
+.sign div {
+    display: inline-block;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.delivery-left-content {
+    line-height: 25px;
+}
+
+.row_form {
+    width: 100%;
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.col-6 label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.col-6 input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.col-6 sup {
+    color: red;
+}
+
+.col-6 select {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.row_form-local sup {
+    color: red;
+}
+
+.row_form-local label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.row_form-local {
+    margin-right: 30px;
+}
+
+.row_form-local input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.delivery-left-bottom a,
+.delivery-left-bottom i {
+    color: red;
+    cursor: pointer;
+}
+
+.delivery-left-bottom a:hover {
+    text-decoration: underline;
+}
+
+.delivery-left-bottom {
+    display: flex;
+    justify-content: space-between
+}
+
+.btn_bills a {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    margin-right: 30px;
+    margin-top: 20px;
+    display: block;
+    cursor: pointer;
+    color: black;
+}
+
+.btn_bills a:hover {
+    transition: all 0.2s ease-in-out;
+    color: red;
+    text-decoration: underline;
+}
+
+.delivery-right {
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+    text-align: left;
+}
+
+thead {
+    font-weight: bold;
+    position: relative;
+}
+
+.delivery-right table tr th {
+    padding-bottom: 12px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.delivery-right table tr {
+    line-height: 30px;
+}
+
+.dam {
+    font-weight: bold;
+}
+
+.line td {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+}

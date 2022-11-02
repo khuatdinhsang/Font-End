@@ -1,0 +1,32 @@
+.mobile,
+.tablet,
+.pc {
+    margin: auto;
+    font-size: 100px;
+    color: #fff;
+    display: none;
+}
+
+body {
+    background-color: rgb(44, 83, 83);
+    display: flex;
+    height: 100vh;
+}
+
+@media only screen and (max-width:46.1875em) {
+    .mobile {
+        display: block;
+    }
+}
+
+@media only screen and ( min-width:46.25em) and (max-width:63.9375em) {
+    .tablet {
+        display: block;
+    }
+}
+
+@media only screen and (min-width:64em) {
+    .pc {
+        display: block;
+    }
+}
